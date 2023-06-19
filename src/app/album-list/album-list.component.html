@@ -1,0 +1,6 @@
+<h2>Album List</h2>
+<ul>
+  <li *ngFor="let album of albums">
+    {{ album.title }} by {{ album.artist }} ({{ album.genre }}, {{ album.year }})
+  </li>
+</ul>
